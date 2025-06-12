@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form and input</title>
+</head>
+<body>
+
+        <form action = "\submit.php" method = "get">
+           <p>
+               <label for = "Firstname">First Name:</label>
+               <input type="text" name="First Name " id="Firstname" Placeholder = "Enter First name " autocomplete = "on" required autofocus>
+           </p>
+            <p>
+                <label>Last Name:<input type="text" name="Last Name" id="" placeholder = "Enter Last name " autocomplete = "on" required >
+               </label>
+            </p>
+            <p>
+                <label>Password : <input type="password" name="Password" id="" placeholder =" Enter your password "  required>
+                </label>
+            </p>
+            <p>
+                <label for = "phone" >Phone no.:</label>
+                <input type = "tel" name = "phone" id = "phone" placeholder = "+977 98XXXXXXXX" pattern = "(\+977)?[0-9]{10}" required >
+            </p>
+            <p>
+                <label for ="fav_num">Lucky no :</label>
+                <input type = "number" name = "Favourite number " id = "fav_num" min = "0" max = "100" step = "1" value = "9">
+            </p>
+            <p>
+                <label for ="games">Favourite game :</label>
+                <select name = "games" id = "games">
+                    <option value = "Football" >Football</option>
+                    <option value = "Basketball">Basketball</option>
+                    <option value = "Hockey">Hockey</option>
+                    <option value = "Volleyball">Volleyball</option>
+                    <option value = "Cricket" selected>Cricket</option>
+                </select>
+            </p>
+            <p>
+                <label>Select your gender :</label><br>
+                <label for = "M">Male :</label>
+                <input type = "radio" id = "M" name ="gender" value = "male" >
+                <label for = "F">Female :</label>
+                <input type = "radio" id = "F" name ="gender" value = "female" >
+                <label for = "O">Other :</label>
+                <input type = "radio" id = "O" name ="gender" value = "Other" >
+            </p>
+            <p>
+                <label for ="email" >Email :</label>
+                <input type = "email" id="email" name = "email" placeholder = "forexample12@gmail.com" >
+            </p>
+        </form>
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form & input tag</title>
+</head>
+<body>
+<h5> Registration form</h5>
+    <form action = "index.php" method = "" enctype ="multipart/form-data">
+        <p><label for = username >Username </label>
+        <input type = "text" id = "username" required placeholder = "enter name ">
+        </p>
+        <p>
+        <label for = "password" >Password :</label>
+        <input type = "password" id = "password" required placeholder = "enter password " minlength = "8" maxlength = "64">
+        </p>
+        <p>
+        <label for = "email" >Email :</label>
+        <input type = "email" id = "email" required placeholder = "enter mail ">
+        </p>
+        <div>
+            <label for ="bday">DOB</label>
+            <input type = "date" id ="bday" >
+        </div>
+        <p>Checkbox allows user to select multiple choices at a time !</p>
+        <label >Choose your favourite games from following : </label>
+        <div>
+        <label for = "football">Football</label>
+        <input type = "checkbox" id = "Football" >
+        <label for = "volleyball" >Volleyball</label>
+        <input type = "checkbox" id = "volleyball">
+        <label for = "Basketball">Basketball</label>
+        <input type = "checkbox" id = "Basketball" >
+        <label for = "Hockey" >Hockey</label>
+        <input type = "checkbox" id = "Hockey">
+        </div>
+        <div>
+            <label>Choose Gender :</label><br>
+            <label for = "Male" >Male</label>
+            <input type ="radio" id="Male" name="gender">
+            <label for = "Female" >Female</label>
+            <input type ="radio" id="Female" name ="gender">
+            <label for = "Other" >Other</label>
+            <input type ="radio" id="Other" name ="gender">
+        </div>
+        <div>
+            <label for ="quantity" >Quantity</label>
+            <input type ="number" id = "quantity" min ="0" max="100" value = "0">
+        </div>
+        <label for = "payment">Payment</label>
+        <select id="payment">
+            <option value="Not for selection " disabled selected>Select card</option>
+            <option value="Visa">Visa Card</option>
+            <option value="Master">Mastercard</option>
+            <option value="Gift">Gift card</option>
+        </select>
+        <br>
+        <label for ="check">Suscribe</label>
+        <input type ="checkbox" id="check" >
+        <br>
+        <label for="comment" >Comment :</label>
+        <textarea id="comment" rows="5" cols="25"></textarea>
+        <div>
+            <label for="file">Choose File</label>
+            <input type = "file" id="file" accept="image/png, image/jepg, image/*">
+        </div>
+        <input type="reset" id ="reset">
+        <input type ="submit" id = "submit">
+
+    </form>
+
+</body>
+</html>

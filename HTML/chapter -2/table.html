@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table tag !</title>
+    <style>/* Table container for responsive design */
+        .table-container {
+          overflow-x: auto;
+          margin: 20px 0;
+        }
+        
+        /* Table styles */
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 10px 0;
+          font-size: 16px;
+          text-align: left;
+          background-color: #fff;
+        }
+        
+        table th,
+        table td {
+          padding: 12px 15px;
+          border: 1px solid #ddd;
+          border: 2px solid black;
+        }
+        
+        /* Header styling */
+        table th {
+          background-color: #f4f4f4;
+          font-weight: bold;
+          color: #333;
+        }
+        
+        /* Row hover effect */
+        table tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+        
+        table tr:hover {
+          background-color: #f1f1f1;
+        }
+        
+        /* Cell alignment */
+        table td {
+          vertical-align: middle;
+        }</style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>Monthly Salary</th>
+                <th>Age</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Sandesh</td>
+                <td>150000</td>
+                <td>19</td>
+                <td>kathmandu</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sandesh1</td>
+                <td>250000</td>
+                <td>19.2</td>
+                <td>kathmandu</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sandesh2</td>
+                <td>350000</td>
+                <td>19.3</td>
+                <td>kathmandu</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sandesh3</td>
+                <td>450000</td>
+                <td>19.4</td>
+                <td>kathmandu</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Sandesh4</td>
+                <td>550000</td>
+                <td>19.5</td>
+                <td>kathmandu</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total</td>
+            </tr>
+            <tr>
+                <td colspan="4">Thanks</td>
+            </tr>
+            <tr>
+                <td colspan="2">Thank</td>
+                <td colspan="3">You !</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
