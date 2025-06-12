@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+</head>
+<body>
+    <style>
+        .buttons-group{
+            /*display:block;
+            margin-bottom:20px;
+            align-items:center;
+            width:100px;*/
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .youtube-button{
+            background-color:rgb(242, 8, 8); /*this makes background color of button */
+            color:white;/*this makes  color of text inside the button */
+            border: none; /*no border at button */
+            height: 36px;/*sets height of button */
+            width: 105px;/*sets width of button */
+            border-radius: 4px;/*sets rounded curves in corners of button */
+            cursor: pointer;/* enable pointer while pointing toward button */
+            margin-right:4px;
+        }
+        .join-button{
+            background-color:white; /*this makes background color of button */
+            color:rgb(4, 134, 156);/*this makes  color of text inside the button */ 
+            border-color:rgb(7, 7, 235);
+            border-style:solid;
+            border-width:2px;
+            border-radius: 2px;/*sets rounded curves in corners of button */
+            height: 36px;/*sets height of button */
+            width: 95px;/*sets width of button */
+            cursor: pointer;/* enable pointer while pointing toward button */
+            margin-right:4px;
+        }
+        .tweet{
+            background-color:#4cd1f5;
+            color:white;
+            border:none;
+            border-radius:75px;
+            height: 150px;
+            width: 90px;
+            cursor: pointer;
+            font-weight:bold;
+            font-size:15px;
+            margin-top: 4px;
+            text-align: center;
+        }
+    </style>
+    <div class="buttons-group">
+    <button class="youtube-button">YouTube</button>
+    <button class="join-button">JOIN</button>
+    <button class="youtube-button">SUBSCRIBE</button>
+    <button class="tweet">Tweet</button>
+    </div>
+</body>
+</html>

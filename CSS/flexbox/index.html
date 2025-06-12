@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style="
+        display:flex;
+        flex-direction: row;
+        margin-bottom: 20px;;
+        ">
+        <div style="background-color: lightskyblue;">div1 text</div>
+        <div style="background-color: lightpink;">div2<p>text</p></div>
+    </div>
+    <div style="
+        display:flex;
+        flex-direction: row;
+        ">
+        <div style="background-color: lightskyblue; width:100px;">width: 100px</div>
+        <div style="background-color: lightpink; flex-grow: 1;">flex:1;</div>
+    </div>
+    <div style="
+        display:flex;
+        flex-direction: row;
+        margin-top: 30px;
+        ">
+        <div style="background-color: lightskyblue; width:100px;">width: 100px</div>
+        <div style="background-color: lightpink; flex-grow: 1;">flex:1;</div>
+        <div style="background-color:lightslategray; flex:2;">flex:2;</div>
+    </div>
+    <div style="
+        display:flex;
+        flex-direction: row;
+        margin-top: 30px;
+        border : 2px solid gray;
+        justify-content:center;
+        align-items:start;
+        ">
+        <div style="background-color: lightskyblue; width:100px; min-height: 200px; margin-right: 10px;">width: 100px</div>
+        <div style="background-color: lightpink; width:100px; min-height: 200px; margin-right: 10px;">100px</div>
+        <div style="background-color:lightslategray; width:100px; min-height: 200px; margin-right: 10px;">100px</div>
+    </div>
+    <div style="
+        display:flex;
+        flex-direction: row;
+        height: 70px;
+        margin-top: 30px;
+        border : 2px solid gray;
+        justify-content:space-between;
+        align-items:center;
+        ">
+        <div style="background-color: lightskyblue; width:100px; ">width: 100px</div>
+        <div style="background-color: lightpink; width:100px; ">100px</div>
+        <div style="background-color:lightslategray; width:100px; ">100px</div>
+    </div>
+</body>
+</html>

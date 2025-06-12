@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 1</title>
+    <style>
+        *{
+            margin : 0px;
+            padding: 0px;
+            box-sizing:border-box;
+            font-family:'Times New Roman';
+        }
+        .div1{
+            background-color: grey;
+            height: 15px;
+            padding: 25px;
+            text-align:left;
+            line-height: 5px;
+            margin-bottom: 5px;
+        }
+        .nav{
+            background:grey;
+            height: 20px;
+            text-align: center;
+            line-height:20px;
+            margin-bottom: 5px;
+        }
+        .header{
+            background-color: lightgray;
+            text-align: center;
+            padding: 50px;
+            line-height:20px;
+            height: 20px;
+            margin-bottom: 5px;
+        }
+        .parent{
+        margin-bottom: 10px;
+        }
+        .box1{
+            background-color: lightgrey;
+            width: 21%;
+            height: 400px;
+            float: left;
+            margin-right:1px;
+            text-align:center;
+            line-height: 400px;
+        }
+        .box2{
+            background-color:lightgrey;
+            width:77%;
+            height: 400px;
+            float: right;
+            text-align:center;
+            line-height: 400px;
+        }
+        .footer{
+            text-align: center;
+            background-color: lightgray;
+            padding: 40px;
+        }
+        .wrapper{
+            margin:auto;
+            width: 80%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+    <div class="div1">div box</div>
+    <div class="nav">Navigation bar</div>
+    <div class="header">Header/banner</div>
+    <div class="parent">
+        <div class="box1">
+            Sidebar
+        </div>
+        <div class="box2">
+            body area
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+
+    </div>
+</body>
+</html>

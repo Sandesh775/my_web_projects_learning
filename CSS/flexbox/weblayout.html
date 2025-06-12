@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weblayout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh; /* Ensures body fills viewport */
+            display: flex;
+            flex-direction: column; /* Stack header, content, footer */
+            font-family: 'Times New Roman', serif;
+        }
+        .content-container{
+            display:flex;
+            flex:1;
+            flex-direction:column;
+            align-items:center;
+            padding: 10px 0;
+        }
+        .top-row{
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+        .bottom-row{
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div style="
+        background-color:lightblue;
+        height: 70px;
+        margin-bottom: 5px;
+        color:antiquewhite;
+        font-family: 'Times New Roman',serif;
+        ">.header</div>
+        <div class="content-container">
+    <div 
+    style="
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    height: 500px;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+    margin-bottom: 10px;">
+    <div class="top-row">
+        <div style="background-color: lightgreen;min-height: 280px;margin-right: 3px;width:400px;margin-bottom: 10px;">.main-content</div>
+        <div style="background-color:rgb(225, 63, 225);min-height: 280px; width:400px;margin-bottom: 10px;">.sidebar</div>
+    </div>
+        <div class="bottom-row">
+        <div style="background-color: lightsalmon; width:350px;min-height:220px;margin-top:2px;margin-right: 3px;">.twin</div>
+        <div style="background-color: lightsalmon; width:445px;min-height:220px;margin-top:2px;margin-left: 1px;">.twin</div>    
+        </div> 
+    </div>
+     </div>
+    <div style="background-color: rgb(229, 146, 20); margin-top:auto; padding: 10px;">.Footer</div>
+</body>
+</html>
